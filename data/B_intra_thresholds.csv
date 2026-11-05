@@ -1,0 +1,17 @@
+arm,output,thr,lo,hi,never
+local,composite,100.0,60.0,150.0,0
+local,PR,150.0,60.0,300.0,0
+local,QRS,300.0,150.0,700.0,0
+local,QT,30.0,30.0,44.0,0
+local,QTc,44.0,30.0,100.0,0
+local,P_wave_axis,60.0,44.0,100.0,0
+local,QRS_axis,2000.0,1000.0,6000.0,44
+local,T_wave_axis,300.0,220.0,700.0,0
+local retreci,composite,30.0,30.0,30.0,0
+local retreci,PR,44.0,30.0,44.0,0
+local retreci,QRS,150.0,30.0,150.0,0
+local retreci,QT,20.0,20.0,30.0,0
+local retreci,QTc,30.0,20.0,30.0,0
+local retreci,P_wave_axis,30.0,20.0,30.0,0
+local retreci,QRS_axis,150.0,44.0,150.0,0
+local retreci,T_wave_axis,44.0,30.0,100.0,0

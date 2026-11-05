@@ -1,0 +1,13 @@
+{
+  "upload_type": "software",
+  "title": "ptransfer and analysis code for: When does adapting an imported prediction model help? Persistence-anchored transfer of longitudinal ECG prediction across departments and devices",
+  "description": "Open-source Python package (ptransfer) and all analysis scripts, parametric simulation, figure code and aggregated results for the article of the same title. The package evaluates longitudinal prediction models against persistence (the prediction that nothing changes), compares strategies for updating an imported model across local cohort sizes with a two-level bootstrap, finds the number of local patients needed to beat persistence, and ranks outputs by a source-only R². It works with any scikit-learn-style regressor. No patient-level data are included. ECG-ViEW II is available from its maintainers; MIMIC-IV-ECG is available on PhysioNet to credentialed users; PF12RED is openly available under a CC BY 4.0 licence (doi:10.5281/zenodo.10864238). Version 1.1.0 restyles the figures and maps them to the numbering of the current manuscript; the package and the results are unchanged from version 1.0.0.",
+  "creators": [
+    {"name": "Elfatouaki, Habiba", "affiliation": "Complex Systems Modeling Laboratory, National School of Applied Sciences, Cadi Ayyad University, Marrakech, Morocco", "orcid": "0009-0009-4499-5701"},
+    {"name": "Latif, Adnane", "affiliation": "Complex Systems Modeling Laboratory, National School of Applied Sciences, Cadi Ayyad University, Marrakech, Morocco"}
+  ],
+  "license": "MIT",
+  "keywords": ["transfer learning", "clinical prediction model", "model updating", "electrocardiography", "persistence", "sample size", "gradient boosting"],
+  "version": "1.1.0",
+  "language": "eng"
+}
